@@ -7,10 +7,17 @@ copyright: Copyright &copy; 2025 Yuumix
 # Repository
 repo_name: Odin Toolkits
 repo_url: https://github.com/yuumixcode/OdinToolkits-For-Unity
+edit_uri: edit/main/docs/
 
 # Configuration
 theme:
   name: material
+  favicon: assets/logo-color-noshadow.png
+  logo: assets/logo-color-noshadow.png
+  icon:
+    repo: lucide/github   
+    tag:
+      default: lucide/hash
   # custom_dir: overrides
   language: zh
   features:
@@ -51,12 +58,8 @@ theme:
       toggle:
         icon: lucide/moon-star
         name: 遵循系统偏好
-  logo: https://cdn.jsdelivr.net/gh/yuumixcode/OdinToolkitsDocumentation@main/cdn-assets/logo-color-noshadow.webp
-  favicon: assets/zensical.png
-  icon:  
-    repo: lucide/github   
-    tag:
-      default: lucide/hash
+
+
   font:
     text: Noto Sans Meroitic
     code: JetBrains Mono
