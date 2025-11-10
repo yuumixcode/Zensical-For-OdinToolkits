@@ -1,31 +1,33 @@
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="zh" class="no-js">
   <head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A new project generated from the default template project.">
+        <meta name="description" content="Odin Toolkits 是开源的，第三方的 Odin Inspector 扩展工具集。探索 Odin Inspector 进阶功能、整合优质资源、优化游戏开发流程。">
       
       
-        <meta name="author" content="<your name here>">
+        <meta name="author" content="Yuumix">
+      
+      
+        <link rel="canonical" href="https://www.odintoolkits.cn/">
       
       
       
-      
-        <link rel="next" href="markdown/">
+        <link rel="next" href="%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3/CHANGELOG/">
       
       
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="assets/zensical.png">
       <meta name="generator" content="zensical-0.0.5">
     
     
       
-        <title>Get started - Documentation</title>
+        <title>README - Odin Toolkits</title>
       
     
     
@@ -71,19 +73,28 @@
 
 
 
+  
+  
+    
+      
+      
+      
+    
+  
+  
+  <style>:root{.md-tag{--md-tag-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20stroke%3D%22currentColor%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%222%22%20class%3D%22lucide%20lucide-hash%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M4%209h16M4%2015h16M10%203%208%2021M16%203l-2%2018%22/%3E%3C/svg%3E');}}</style>
+
     
     
       
     
     
       
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
-      
     
+    
+      <link rel="stylesheet" href="assets/stylesheets/zensical-official-extra.css">
+    
+      <link rel="stylesheet" href="assets/stylesheets/fonts.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -110,8 +121,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#get-started" class="md-skip">
-          Skip to content
+        <a href="#readme" class="md-skip">
+          跳转至
         </a>
       
     </div>
@@ -122,14 +133,11 @@
     
       
 
-  
-
-<header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="." title="Odin Toolkits" class="md-header__button md-logo" aria-label="Odin Toolkits" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+  <img src="assets/zensical.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -140,13 +148,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Documentation
+            Odin Toolkits
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Get started
+              README
             
           </span>
         </div>
@@ -159,9 +167,19 @@
     
     
     
-    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换亮色"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+      <label class="md-header__button md-icon" title="切换亮色" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun-moon" viewBox="0 0 24 24"><path d="M12 2v2M14.837 16.385a6 6 0 1 1-7.223-7.222c.624-.147.97.66.715 1.248a4 4 0 0 0 5.26 5.259c.589-.255 1.396.09 1.248.715M16 12a4 4 0 0 0-4-4M19 5l-1.256 1.256M20 12h2"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换暗色"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换暗色" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
       </label>
     
@@ -169,10 +187,10 @@
     
     
     
-    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="orange"  aria-label="遵循系统偏好"  type="radio" name="__palette" id="__palette_2">
     
-      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
+      <label class="md-header__button md-icon" title="遵循系统偏好" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon-star" viewBox="0 0 24 24"><path d="M18 5h4M20 3v4M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
       </label>
     
   
@@ -190,14 +208,24 @@
           
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
         </label>
-        <div class="md-search" data-md-component="search" role="dialog" aria-label="Search">
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="查找">
   <button type="button" class="md-search__button">
-    Search
+    查找
   </button>
 </div>
       
     
     <div class="md-header__source">
+      
+        <a href="https://github.com/yuumixcode/OdinToolkits-For-Unity" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Odin Toolkits
+  </div>
+</a>
       
     </div>
   </nav>
@@ -208,6 +236,65 @@
       
       
         
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="." class="md-tabs__link">
+          
+  
+  README
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="Manuals/ScriptDocGenerator/ScriptDocGenerator%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" class="md-tabs__link">
+          
+  
+  使用手册
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
           
         
       
@@ -222,17 +309,30 @@
                     
 
 
-
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href="." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
-      
   
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Odin Toolkits" class="md-nav__button md-logo" aria-label="Odin Toolkits" data-md-component="logo">
+      
+  <img src="assets/zensical.svg" alt="logo">
 
     </a>
-    Documentation
+    Odin Toolkits
   </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/yuumixcode/OdinToolkits-For-Unity" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Odin Toolkits
+  </div>
+</a>
+    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -244,16 +344,37 @@
   
   
   
-    <li class="md-nav__item md-nav__item--active">
+    
+    
       
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
       
       
         
       
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
           
+          <div class="md-nav__link md-nav__container">
+            <a href="." class="md-nav__link md-nav__link--active">
+              
   
   
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-rocket" viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
@@ -261,7 +382,7 @@
   <span class="md-ellipsis">
     
   
-    Get started
+    README
   
 
     
@@ -269,19 +390,45 @@
   
   
 
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_1" id="__nav_1_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    README
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3/CHANGELOG/" class="md-nav__link">
         
   
   
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-rocket" viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-feather" viewBox="0 0 24 24"><path d="M12.67 19a2 2 0 0 0 1.416-.588l6.154-6.172a6 6 0 0 0-8.49-8.49L5.586 9.914A2 2 0 0 0 5 11.328V18a1 1 0 0 0 1 1zM16 8 2 22M17.5 15H9"/></svg>
   
   <span class="md-ellipsis">
     
   
-    Get started
+    CHANGELOG
   
 
     
@@ -290,175 +437,13 @@
   
 
       </a>
-      
-        
+    </li>
+  
 
-
-<nav class="md-nav md-nav--secondary" aria-label="On this page">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      On this page
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Commands
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Examples
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Examples">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#admonitions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Admonitions
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#details" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Details
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#code-blocks" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Code Blocks
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#content-tabs" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Content tabs
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#diagrams" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Diagrams
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#footnotes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Footnotes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#formatting" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Formatting
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#icons-emojis" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Icons, Emojis
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#maths" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Maths
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#task-lists" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Task Lists
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tooltips" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tooltips
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -470,17 +455,127 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="markdown/" class="md-nav__link">
+    
+    
+      
         
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
   
-  
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22.27 19.385H1.73A1.73 1.73 0 0 1 0 17.655V6.345a1.73 1.73 0 0 1 1.73-1.73h20.54A1.73 1.73 0 0 1 24 6.345v11.308a1.73 1.73 0 0 1-1.73 1.731zM5.769 15.923v-4.5l2.308 2.885 2.307-2.885v4.5h2.308V8.078h-2.308l-2.307 2.885-2.308-2.885H3.46v7.847zM21.232 12h-2.309V8.077h-2.307V12h-2.308l3.461 4.039z"/></svg>
   
   <span class="md-ellipsis">
     
   
-    Markdown in 5min
+    使用手册
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    使用手册
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Script Doc Generator
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Script Doc Generator
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Manuals/ScriptDocGenerator/ScriptDocGenerator%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    使用指南
   
 
     
@@ -489,6 +584,22 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -507,7 +618,7 @@
                     
 
 
-<nav class="md-nav md-nav--secondary" aria-label="On this page">
+<nav class="md-nav md-nav--secondary" aria-label="目录">
   
   
   
@@ -516,15 +627,15 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      On this page
+      目录
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Commands
+        ⚠️ 重要声明
       
     </span>
   </a>
@@ -532,22 +643,44 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Examples
+        项目愿景
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Examples">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        主要模块
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        安装
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="安装">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#admonitions" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Admonitions
+        前提条件
       
     </span>
   </a>
@@ -555,10 +688,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#details" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Details
+        具体步骤
       
     </span>
   </a>
@@ -571,10 +704,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#code-blocks" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Code Blocks
+        开始使用
       
     </span>
   </a>
@@ -582,10 +715,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#content-tabs" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Content tabs
+        项目结构
       
     </span>
   </a>
@@ -593,10 +726,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#diagrams" class="md-nav__link">
+  <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Diagrams
+        相关链接
       
     </span>
   </a>
@@ -604,10 +737,38 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#footnotes" class="md-nav__link">
+  <a href="#_10" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Footnotes
+        许可证
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="许可证">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#logo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logo 许可证
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        更新日志
       
     </span>
   </a>
@@ -615,10 +776,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#formatting" class="md-nav__link">
+  <a href="#_12" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Formatting
+        贡献指南
       
     </span>
   </a>
@@ -626,10 +787,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#icons-emojis" class="md-nav__link">
+  <a href="#_13" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Icons, Emojis
+        支持与反馈
       
     </span>
   </a>
@@ -637,32 +798,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#maths" class="md-nav__link">
+  <a href="#_14" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Maths
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#task-lists" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Task Lists
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tooltips" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tooltips
+        项目及友链推荐
       
     </span>
   </a>
@@ -684,171 +823,124 @@
 
 
 
-  
-
 
               
               <article class="md-content__inner md-typeset">
                 
                   
+  
+  
+    
+      
+    
+    <a href="https://github.com/yuumixcode/OdinToolkits-For-Unity/raw/main/docs/README.md" title="查看本页的源代码" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-file-code-2" viewBox="0 0 24 24"><path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4"/><path d="M14 2v4a2 2 0 0 0 2 2h4M5 12l-3 3 3 3M9 18l3-3-3-3"/></svg>
+    </a>
+  
 
-<h1 id="get-started">Get started<a class="headerlink" href="#get-started" title="Permanent link">&para;</a></h1>
-<p>For full documentation visit <a href="https://zensical.org/docs/">zensical.org</a>.</p>
-<h2 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="https://zensical.org/docs/usage/new/"><code>zensical new</code></a> - Create a new project</li>
-<li><a href="https://zensical.org/docs/usage/preview/"><code>zensical serve</code></a> - Start local web server</li>
-<li><a href="https://zensical.org/docs/usage/build/"><code>zensical build</code></a> - Build your site</li>
-</ul>
-<h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
-<h3 id="admonitions">Admonitions<a class="headerlink" href="#admonitions" title="Permanent link">&para;</a></h3>
-<blockquote>
-<p>Go to <a href="https://zensical.org/docs/authoring/admonitions/">documentation</a></p>
-</blockquote>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>This is a <strong>note</strong> admonition. Use it to provide helpful information.</p>
-</div>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>This is a <strong>warning</strong> admonition. Be careful!</p>
-</div>
-<h3 id="details">Details<a class="headerlink" href="#details" title="Permanent link">&para;</a></h3>
-<blockquote>
-<p>Go to <a href="https://zensical.org/docs/authoring/admonitions/#collapsible-blocks">documentation</a></p>
-</blockquote>
-<details class="info">
-<summary>Click to expand for more info</summary>
-<p>This content is hidden until you click to expand it.
-Great for FAQs or long explanations.</p>
-</details>
-<h2 id="code-blocks">Code Blocks<a class="headerlink" href="#code-blocks" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>Go to <a href="https://zensical.org/docs/authoring/code-blocks/">documentation</a></p>
-</blockquote>
-<div class="language-python highlight"><span class="filename">Code blocks</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">greet</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="hll">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">!&quot;</span><span class="p">)</span> <span class="c1"># (1)!</span>
-</span></span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="n">greet</span><span class="p">(</span><span class="s2">&quot;Python&quot;</span><span class="p">)</span>
-</span></code></pre></div>
-<ol>
-<li>
-<blockquote>
-<p>Go to <a href="https://zensical.org/docs/authoring/code-blocks/#code-annotations">documentation</a></p>
-</blockquote>
-<p>Code annotations allow to attach notes to lines of code.</p>
-</li>
-</ol>
-<p>Code can also be highlighted inline: <code class="language-python highlight"><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello, Python!&quot;</span><span class="p">)</span></code>.</p>
-<h2 id="content-tabs">Content tabs<a class="headerlink" href="#content-tabs" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>Go to <a href="https://zensical.org/docs/authoring/content-tabs/">documentation</a></p>
-</blockquote>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Python</label><label for="__tabbed_1_2">Rust</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello from Python!&quot;</span><span class="p">)</span>
-</span></code></pre></div>
-</div>
-<div class="tabbed-block">
-<div class="language-rs highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="fm">println!</span><span class="p">(</span><span class="s">&quot;Hello from Rust!&quot;</span><span class="p">);</span>
-</span></code></pre></div>
-</div>
-</div>
-</div>
-<h2 id="diagrams">Diagrams<a class="headerlink" href="#diagrams" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>Go to <a href="https://zensical.org/docs/authoring/diagrams/">documentation</a></p>
-</blockquote>
-<pre class="mermaid"><code>graph LR
-  A[Start] --&gt; B{Error?};
-  B --&gt;|Yes| C[Hmm...];
-  C --&gt; D[Debug];
-  D --&gt; B;
-  B ----&gt;|No| E[Yay!];</code></pre>
-<h2 id="footnotes">Footnotes<a class="headerlink" href="#footnotes" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>Go to <a href="https://zensical.org/docs/authoring/footnotes/">documentation</a></p>
-</blockquote>
-<p>Here's a sentence with a footnote.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
-<p>Hover it, to see a tooltip.</p>
-<h2 id="formatting">Formatting<a class="headerlink" href="#formatting" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>Go to <a href="https://zensical.org/docs/authoring/formatting/">documentation</a></p>
-</blockquote>
-<ul>
-<li><mark>This was marked (highlight)</mark></li>
-<li><ins>This was inserted (underline)</ins></li>
-<li><del>This was deleted (strikethrough)</del></li>
-<li>H<sub>2</sub>O</li>
-<li>A<sup>T</sup>A</li>
-<li><span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-alt">Alt</kbd><span>+</span><kbd class="key-delete">Del</kbd></span></li>
-</ul>
-<h2 id="icons-emojis">Icons, Emojis<a class="headerlink" href="#icons-emojis" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>Go to <a href="https://zensical.org/docs/authoring/icons-emojis/">documentation</a></p>
-</blockquote>
-<ul>
-<li><img alt="✨" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2728.svg" title=":sparkles:" /> <code>:sparkles:</code></li>
-<li><img alt="🚀" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f680.svg" title=":rocket:" /> <code>:rocket:</code></li>
-<li><img alt="🎉" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f389.svg" title=":tada:" /> <code>:tada:</code></li>
-<li><img alt="📝" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f4dd.svg" title=":memo:" /> <code>:memo:</code></li>
-<li><img alt="👀" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f440.svg" title=":eyes:" /> <code>:eyes:</code></li>
-</ul>
-<h2 id="maths">Maths<a class="headerlink" href="#maths" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>Go to <a href="https://zensical.org/docs/authoring/math/">documentation</a></p>
-</blockquote>
-<div class="arithmatex">\[
-\cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
-\]</div>
-<div class="admonition warning">
-<p class="admonition-title">Needs configuration</p>
-<p>Note that MathJax is included via a <code>script</code> tag on this page and is not
-configured in the generated default configuration to avoid including it
-in a pages that do not need it. See the documentation for details on how
-to configure it on all your pages if they are more Maths-heavy than these
-simple starter pages.</p>
-</div>
-<script id="MathJax-script" async src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [["\\(", "\\)"]],
-      displayMath: [["\\[", "\\]"]],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    options: {
-      ignoreHtmlClass: ".*|",
-      processHtmlClass: "arithmatex"
-    }
-  };
-</script>
 
-<h2 id="task-lists">Task Lists<a class="headerlink" href="#task-lists" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>Go to <a href="https://zensical.org/docs/authoring/lists/#using-task-lists">documentation</a></p>
-</blockquote>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Install Zensical</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Configure <code>zensical.toml</code></li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Write amazing documentation</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Deploy anywhere</li>
+<h1 id="readme">README<a class="headerlink" href="#readme" title="Permanent link">&para;</a></h1>
+<p align="center">
+  <a href="https://www.odintoolkits.cn/"><img src="https://cdn.jsdelivr.net/gh/yuumixcode/OdinToolkitsDocumentation@main/cdn-assets/logo-color-noshadow.webp" width="240" alt="Odin Toolkits Logo"></a>
+</p>
+
+<p align="center"><strong>探索 Odin Inspector 进阶功能、整合优质资源、优化游戏开发流程。</strong></p>
+
+<p align="center">
+    <a href="https://docs.unity3d.com/2021.3/Documentation/Manual/index.html"><img alt="Unity 版本" src="https://img.shields.io/badge/Unity-2021.3.45f2c1-blue?style=for-the-badge&logo=unity"></a>
+    <a href="https://odininspector.com/"><img alt="Odin Inspector" src="https://img.shields.io/badge/Odin_Inspector-3.3%2B_-orange?style=for-the-badge"></a>
+    <a href="https://github.com/yuumixcode/OdinToolkits-For-Unity?tab=MIT-1-ov-file"><img alt="License" src="https://img.shields.io/badge/license-mit-green?style=for-the-badge"></a><br/ >
+    <a href="https://www.odintoolkits.cn/"><img alt="GitHub Pages" src="https://img.shields.io/badge/Docs%20Website-GitHub_Pages-purple?style=for-the-badge"></a>
+    <a href="https://odintoolkitsdocumentation.readthedocs.io/latest/"><img alt="Read the Docs" src="https://img.shields.io/badge/Docs%20Website-Read%20the%20Docs-orange?style=for-the-badge"></a>
+</p>
+
+<h2 id="_1">⚠️ 重要声明<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li><code>Odin Toolkits</code> 是开源的、第三方扩展工具集，主要面向 <code>Odin Inspector and Serializer</code> 的中文用户。</li>
+<li><code>Odin Toolkits</code> 提供了英文界面解决方案，欢迎贡献完善英文界面。</li>
+<li>本项目与 Sirenix 公司及官方产品 <code>Odin Inspector and Serializer</code> 无任何隶属、合作或授权关系，并非官方衍生产品。</li>
+<li>本项目不包含 <code>Odin Inspector and Serializer</code> 的发行版本。</li>
+<li>本文中的 <code>Odin Inspector</code> 为 <code>Odin Inspector and Serializer</code> 的简称。</li>
 </ul>
-<h2 id="tooltips">Tooltips<a class="headerlink" href="#tooltips" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>Go to <a href="https://zensical.org/docs/authoring/tooltips/">documentation</a></p>
-</blockquote>
-<p><a href="https://example.com" title="I'm a tooltip!">Hover me</a></p>
-<div class="footnote">
-<hr />
+<h2 id="_2">项目愿景<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li>成为使用 <code>Odin Inspector and Serializer</code> 的开发者的必备扩展工具集</li>
+</ul>
+<h2 id="_3">主要模块<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <ol>
-<li id="fn:1">
-<p>This is the footnote.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
+<li><code>Script Doc Generator</code>：脚本文档生成工具，一键生成 <code>API</code> 文档，也可以自定义文档格式。</li>
+<li><code>Attribute Overview Pro</code> ：中文特性总览窗口，在官方的 <code>Attribute Overview</code> 内容上进行扩展</li>
+<li><code>Community</code>：社区模块，收集、整理、分享使用 <code>Odin Inspector</code> 制作的工具以及推荐其他优质资源</li>
+<li>原生多语言特性，在构造函数层面直接添加多语言参数。</li>
 </ol>
-</div>
+<h2 id="_4">安装<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<h3 id="_5">前提条件<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>Unity 2021.3.45f2c1 LTS</code> 或更高版本</li>
+<li><code>Odin Inspector And Serializer 3.3</code> 或更高版本</li>
+</ul>
+<h3 id="_6">具体步骤<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p><code>Odin Toolkits</code> 依赖 <code>Odin Inspector</code> 插件，请先自行导入 <code>Odin Inspector</code> 插件到项目。</p>
+<p>从 <a href="https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041">Unity Global AssetStore</a> 和 <a href="https://odininspector.com/">Sirenix 官网</a> 上购买 <code>Odin Inspector</code> 或其他方式获取。</p>
+</blockquote>
+<ol>
+<li>确保项目中已安装 <code>Odin Inspector</code></li>
+<li>下载最新发布包</li>
+<li>将包导入到 <code>Unity</code> 项目中</li>
+<li>通过 <code>Tools/Odin Toolkits</code> 菜单访问工具</li>
+</ol>
+<h2 id="_7">开始使用<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<p>导入后，您可以通过 Unity 编辑器菜单访问 <code>Odin Toolkits</code>：</p>
+<ul>
+<li><code>Tools/Odin Toolkits/Getting Started</code> - 开始使用</li>
+<li><code>Tools/Odin Toolkits/Editor Settings</code> - 配置编辑器偏好设置</li>
+<li><code>Tools/Odin Toolkits/Runtime Config</code> - 配置运行时设置</li>
+<li><code>Tools/Odin Toolkits/Script Doc Generator</code> - 脚本文档生成工具</li>
+<li><code>Tools/Odin Toolkits/Attributes Overview Pro</code> - 中文特性总览</li>
+<li><code>Tools/Odin Toolkits/Tool Packages</code> - 工具箱</li>
+<li><code>Tools/Odin Toolkits/Community</code> - 访问社区模块</li>
+</ul>
+<h2 id="_8">项目结构<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<div class="language-markdown highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Plugins/
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├─ Yuumix/
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>│  ├─ Community/
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│  │  ├─ Editor/
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│  │  ├─ Modules/
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│  ├─ OdinToolkits/
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>│  │  ├─ AttributeOverviewPro/
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>│  │  ├─ Core/
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>│  │  │  ├─ Editor/
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>│  │  │  ├─ Resources/
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>│  │  │  ├─ Runtime/
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>│  │  ├─ Modules/
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>│  │  ├─ ScriptDocGenerator/
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>│  │  ├─ Tests/
+</span></code></pre></div>
+<h2 id="_9">相关链接<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<p><a href="https://www.odintoolkits.cn/">推荐 - Odin Toolkits 文档网站 - GitHub 部署</a></p>
+<p><a href="https://odintoolkitsdocumentation.readthedocs.io/latest/">Odin Toolkits 文档网站 - Read the Docs 部署</a></p>
+<p><a href="https://odininspector.com/">Odin Inspector 官方网站</a></p>
+<p><a href="https://odininspector.com/pricing">Odin Inspector 许可信息</a></p>
+<h2 id="_10">许可证<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h2>
+<p>本项目基于 MIT 许可证授权。</p>
+<h3 id="logo">Logo 许可证<a class="headerlink" href="#logo" title="Permanent link">&para;</a></h3>
+<p>查看 <code>LOGO-LICENSE.md</code> 文档。</p>
+<h2 id="_11">更新日志<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h2>
+<p>详细版本历史和变更请查看项目中的 <code>CHANGELOG.md</code> 或者 <a href="https://www.odintoolkits.cn/">Odin Toolkits 文档网站 - GitHub 部署</a> 的 <code>CHANGELOG</code> 章节。</p>
+<h2 id="_12">贡献指南<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h2>
+<p>查看 <code>CONTRIBUTING.md</code> 文档。</p>
+<h2 id="_13">支持与反馈<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h2>
+<p><a href="mailto:zeriying@gmail.com">zeriying@gmail.com</a></p>
+<p>感谢你看到这里，如果 <code>Odin Toolkits</code> 在你的 <code>Unity</code> 开发过程中切实提供了帮助，恳请为项目点亮一颗 ★ Star！</p>
+<p>如果 <code>Odin Toolkits</code> 打包出现错误，请提 issue，或者联系我，我会尽快处理，业余时间开发，无法即时回复，请优先邮件联系。</p>
+<h2 id="_14">项目及友链推荐<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/liangxiegame/QFramework">QFramework - Unity 开发框架</a></p>
+<p><a href="https://github.com/Ey-Sive-I-Save/ESFrameWorkPublish.git">ES Framework - Unity 开发框架</a></p>
+<p><a href="https://squidfunk.github.io/mkdocs-material/"><img alt="Built with Material for MkDocs" src="https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&amp;logo=MaterialForMkDocs&amp;logoColor=white" /></a></p>
+<p><a href="https://wcowin.work/Mkdocs-Wcowin/">Wcowin 的 MkDocs 博客</a></p>
+<p><a href="https://jaywhj.netlify.app/">Aaron 的博客</a></p>
 
 
 
@@ -879,7 +971,7 @@ simple starter pages.</p>
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
-  Back to top
+  回到页面顶部
 </button>
         
       </main>
@@ -888,17 +980,17 @@ simple starter pages.</p>
   
     
       
-      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
         
         
           
-          <a href="markdown/" class="md-footer__link md-footer__link--next" aria-label="Next: Markdown in 5min">
+          <a href="%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3/CHANGELOG/" class="md-footer__link md-footer__link--next" aria-label="下一页: CHANGELOG">
             <div class="md-footer__title">
               <span class="md-footer__direction">
-                Next
+                下一页
               </span>
               <div class="md-ellipsis">
-                Markdown in 5min
+                CHANGELOG
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -915,14 +1007,34 @@ simple starter pages.</p>
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 The authors
-
+      Copyright &copy; 2025 Yuumix
     </div>
   
   
     Made with
     <a href="https://zensical.org/" target="_blank" rel="noopener">
       Zensical
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="mailto:<zeriying@gmail.com>" target="_blank" rel="noopener" title="邮件" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M112 0C85.5 0 64 21.5 64 48v160h80v-32c0-53 43-96 96-96h208V48c0-26.5-21.5-48-48-48zm128 128c-26.5 0-48 21.5-48 48v32h80c53 0 96 43 96 96v112h160c26.5 0 48-21.5 48-48V176c0-26.5-21.5-48-48-48zm200 64h48c13.3 0 24 10.7 24 24v48c0 13.3-10.7 24-24 24h-48c-13.3 0-24-10.7-24-24v-48c0-13.3 10.7-24 24-24M48 256c-26.5 0-48 21.5-48 48v10.4l156.6 86.2c1.1.6 2.2.9 3.4.9s2.4-.3 3.4-.9L320 314.4V304c0-26.5-21.5-48-48-48zm272 113.2-133.4 73.4c-8.1 4.5-17.3 6.8-26.6 6.8s-18.4-2.4-26.6-6.8L0 369.2V464c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://github.com/yuumixcode" target="_blank" rel="noopener" title="yuumix code" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
 </div>
@@ -941,10 +1053,12 @@ simple starter pages.</p>
       
       
       
-      <script id="__config" type="application/json">{"annotate":null,"base":".","features":["announce.dismiss","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","navigation.footer","navigation.indexes","navigation.instant","navigation.instant.prefetch","navigation.path","navigation.sections","navigation.top","navigation.tracking","search.highlight"],"search":"assets/javascripts/workers/search.5e1f2129.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
+      <script id="__config" type="application/json">{"annotate":null,"base":".","features":["announce.dismiss","content.action.view","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","navigation.footer","navigation.indexes","navigation.path","navigation.sections","navigation.tabs","navigation.top","toc.follow","search.highlight","header.autohide"],"search":"assets/javascripts/workers/search.5e1f2129.min.js","tags":null,"translations":{"clipboard.copied":"已复制","clipboard.copy":"复制","search.result.more.one":"在该页上还有 1 个符合条件的结果","search.result.more.other":"在该页上还有 # 个符合条件的结果","search.result.none":"没有找到符合条件的结果","search.result.one":"找到 1 个符合条件的结果","search.result.other":"# 个符合条件的结果","search.result.placeholder":"键入以开始搜索","search.result.term.missing":"缺少","select.version":"选择当前版本"},"version":null}</script>
     
     
       <script src="assets/javascripts/bundle.1193bd74.min.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
       
     
   </body>

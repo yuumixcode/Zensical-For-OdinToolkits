@@ -1,0 +1,15 @@
+/* 直接导入 css 文件，自动获取对应的 font-face 定义 */
+@import url("https://static.zeoseven.com/zsft/292/main/result.css");
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../fonts/JetBrainsMono-Regular.woff2") format("woff2");
+  font-display: swap;
+  /* 禁用连字 */
+  font-variant-ligatures: none;
+}
+
+:root {
+  --md-text-font: "JetBrains Mono";
+  --md-code-font: "JetBrains Mono";
+}

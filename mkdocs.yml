@@ -1,0 +1,128 @@
+site_name: Odin Toolkits
+site_description: Odin Toolkits 是开源的，第三方的 Odin Inspector 扩展工具集。探索 Odin Inspector 进阶功能、整合优质资源、优化游戏开发流程。
+site_author: Yuumix
+site_url: https://www.odintoolkits.cn/
+copyright: Copyright &copy; 2025 Yuumix
+
+# Repository
+repo_name: Odin Toolkits
+repo_url: https://github.com/yuumixcode/OdinToolkits-For-Unity
+edit_uri: edit/main/docs/
+# Configuration
+theme:
+  name: material
+  # custom_dir: overrides
+  language: zh
+  features:
+    - announce.dismiss
+    # - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.footnote.tooltips
+    - content.tabs.link
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - toc.follow
+    - search.highlight
+    - header.autohide
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: lucide/sun-moon
+        name: 切换亮色
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: lucide/sun
+        name: 切换暗色
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: lucide/moon-star
+        name: 遵循系统偏好
+  favicon: assets/zensical.png
+  logo: assets/zensical.svg
+  icon:  
+    repo: lucide/github   
+    tag:
+      default: lucide/hash
+  font: false
+  #   text: Inter
+  #   code: Jetbrains Mono
+
+# # Plugins
+# plugins:
+#   - search
+
+extra:
+  social:
+    - icon: fontawesome/solid/mail-bulk
+      link: mailto:<zeriying@gmail.com>
+      name: 邮件
+    - icon: fontawesome/brands/github
+      link: https://github.com/yuumixcode
+      name: yuumix code
+
+# Additional configuration
+extra_css:
+  - assets/stylesheets/zensical-official-extra.css
+  - assets/stylesheets/fonts.css
+
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - tables
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - footnotes
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.blocks.caption
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - abbr
+
+# Page tree
+nav:
+  - README: 
+    - README: README.md
+    - CHANGELOG: 说明文档/CHANGELOG.md
+  - 使用手册:
+    - Script Doc Generator:
+      - 使用指南: Manuals/ScriptDocGenerator/ScriptDocGenerator 使用指南.md

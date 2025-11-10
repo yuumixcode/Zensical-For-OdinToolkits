@@ -1,0 +1,73 @@
+/* 
+ * Zensical 自定义样式
+ * 包含多列布局、开关按钮和标志/标签的样式定义
+ */
+
+/* 多列布局样式 */
+.mdx-columns ol,
+.mdx-columns ul {
+  columns: 2;
+}
+
+/* 响应式设计：小屏幕下恢复单列布局 */
+@media screen and (max-width: 29.9844em) {
+  .md-typeset .mdx-columns ol,
+  .md-typeset .mdx-columns ul {
+    columns: initial;
+  }
+}
+
+/* 防止列表项在分列时被截断 */
+.mdx-columns li {
+  break-inside: avoid;
+}
+
+/* 开关按钮样式 */
+.mdx-switch button {
+  cursor: pointer;
+}
+
+/* 标志/标签容器样式 */
+.mdx-flags {
+  margin: 2em auto
+}
+
+/* 标志/标签列表样式 */
+.md-typeset .mdx-flags ol {
+  list-style: none
+}
+
+/* 标志/标签列表项样式 */
+.md-typeset .mdx-flags ol li {
+  margin-bottom: 1em
+}
+
+/* 标志/标签项目布局 */
+.md-typeset .mdx-flags__item {
+  display: flex;
+  gap: .6rem
+}
+
+/* 标志/标签内容布局 */
+.md-typeset .mdx-flags__content {
+  display: flex;
+  flex: 1;
+  flex-direction: column
+}
+
+/* 标志/标签内容中的span元素布局 */
+.md-typeset .mdx-flags__content span {
+  align-items: baseline;
+  display: inline-flex;
+  justify-content: space-between
+}
+
+/* 标志/标签内容中的第二个span元素字体大小 */
+.md-typeset .mdx-flags__content>span:nth-child(2) {
+  font-size: 80%
+}
+
+/* 标志/标签内容中的代码元素右对齐 */
+.md-typeset .mdx-flags__content code {
+  float: right
+}

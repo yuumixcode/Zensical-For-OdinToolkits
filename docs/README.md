@@ -1,0 +1,133 @@
+---
+icon: lucide/rocket
+---
+
+# README
+
+<p align="center">
+  <a href="https://www.odintoolkits.cn/"><img src="https://cdn.jsdelivr.net/gh/yuumixcode/OdinToolkitsDocumentation@main/cdn-assets/logo-color-noshadow.webp" width="240" alt="Odin Toolkits Logo"></a>
+</p>
+
+<p align="center"><strong>探索 Odin Inspector 进阶功能、整合优质资源、优化游戏开发流程。</strong></p>
+
+<p align="center">
+	<a href="https://docs.unity3d.com/2021.3/Documentation/Manual/index.html"><img alt="Unity 版本" src="https://img.shields.io/badge/Unity-2021.3.45f2c1-blue?style=for-the-badge&logo=unity"></a>
+	<a href="https://odininspector.com/"><img alt="Odin Inspector" src="https://img.shields.io/badge/Odin_Inspector-3.3%2B_-orange?style=for-the-badge"></a>
+	<a href="https://github.com/yuumixcode/OdinToolkits-For-Unity?tab=MIT-1-ov-file"><img alt="License" src="https://img.shields.io/badge/license-mit-green?style=for-the-badge"></a><br/ >
+	<a href="https://www.odintoolkits.cn/"><img alt="GitHub Pages" src="https://img.shields.io/badge/Docs%20Website-GitHub_Pages-purple?style=for-the-badge"></a>
+	<a href="https://odintoolkitsdocumentation.readthedocs.io/latest/"><img alt="Read the Docs" src="https://img.shields.io/badge/Docs%20Website-Read%20the%20Docs-orange?style=for-the-badge"></a>
+</p>
+
+## ⚠️ 重要声明
+
+- `Odin Toolkits` 是开源的、第三方扩展工具集，主要面向 `Odin Inspector and Serializer` 的中文用户。
+- `Odin Toolkits` 提供了英文界面解决方案，欢迎贡献完善英文界面。
+- 本项目与 Sirenix 公司及官方产品 `Odin Inspector and Serializer` 无任何隶属、合作或授权关系，并非官方衍生产品。
+- 本项目不包含 `Odin Inspector and Serializer` 的发行版本。
+- 本文中的 `Odin Inspector` 为 `Odin Inspector and Serializer` 的简称。
+
+## 项目愿景
+
+- 成为使用 `Odin Inspector and Serializer` 的开发者的必备扩展工具集
+
+## 主要模块
+
+1. `Script Doc Generator`：脚本文档生成工具，一键生成 `API` 文档，也可以自定义文档格式。
+2. `Attribute Overview Pro` ：中文特性总览窗口，在官方的 `Attribute Overview` 内容上进行扩展
+3. `Community`：社区模块，收集、整理、分享使用 `Odin Inspector` 制作的工具以及推荐其他优质资源
+4. 原生多语言特性，在构造函数层面直接添加多语言参数。
+
+## 安装
+
+### 前提条件
+
+- `Unity 2021.3.45f2c1 LTS` 或更高版本
+- `Odin Inspector And Serializer 3.3` 或更高版本
+
+### 具体步骤
+
+> `Odin Toolkits` 依赖 `Odin Inspector` 插件，请先自行导入 `Odin Inspector` 插件到项目。
+>
+> 从 [Unity Global AssetStore](https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041) 和 [Sirenix 官网](https://odininspector.com/) 上购买 `Odin Inspector` 或其他方式获取。
+
+1. 确保项目中已安装 `Odin Inspector`
+2. 下载最新发布包
+3. 将包导入到 `Unity` 项目中
+4. 通过 `Tools/Odin Toolkits` 菜单访问工具
+
+## 开始使用
+
+导入后，您可以通过 Unity 编辑器菜单访问 `Odin Toolkits`：
+
+- `Tools/Odin Toolkits/Getting Started` - 开始使用
+- `Tools/Odin Toolkits/Editor Settings` - 配置编辑器偏好设置
+- `Tools/Odin Toolkits/Runtime Config` - 配置运行时设置
+- `Tools/Odin Toolkits/Script Doc Generator` - 脚本文档生成工具
+- `Tools/Odin Toolkits/Attributes Overview Pro` - 中文特性总览
+- `Tools/Odin Toolkits/Tool Packages` - 工具箱
+- `Tools/Odin Toolkits/Community` - 访问社区模块
+
+## 项目结构
+
+``` markdown
+Plugins/
+├─ Yuumix/
+│  ├─ Community/
+│  │  ├─ Editor/
+│  │  ├─ Modules/
+│  ├─ OdinToolkits/
+│  │  ├─ AttributeOverviewPro/
+│  │  ├─ Core/
+│  │  │  ├─ Editor/
+│  │  │  ├─ Resources/
+│  │  │  ├─ Runtime/
+│  │  ├─ Modules/
+│  │  ├─ ScriptDocGenerator/
+│  │  ├─ Tests/
+```
+
+## 相关链接
+
+[推荐 - Odin Toolkits 文档网站 - GitHub 部署](https://www.odintoolkits.cn/)
+
+[Odin Toolkits 文档网站 - Read the Docs 部署](https://odintoolkitsdocumentation.readthedocs.io/latest/)
+
+[Odin Inspector 官方网站](https://odininspector.com/)
+
+[Odin Inspector 许可信息](https://odininspector.com/pricing)
+
+## 许可证
+
+本项目基于 MIT 许可证授权。
+
+### Logo 许可证
+
+查看 `LOGO-LICENSE.md` 文档。
+
+## 更新日志
+
+详细版本历史和变更请查看项目中的 `CHANGELOG.md` 或者 [Odin Toolkits 文档网站 - GitHub 部署](https://www.odintoolkits.cn/) 的 `CHANGELOG` 章节。
+
+## 贡献指南
+
+查看 `CONTRIBUTING.md` 文档。
+
+## 支持与反馈
+
+[zeriying@gmail.com](mailto:zeriying@gmail.com)
+
+感谢你看到这里，如果 `Odin Toolkits` 在你的 `Unity` 开发过程中切实提供了帮助，恳请为项目点亮一颗 ★ Star！
+
+如果 `Odin Toolkits` 打包出现错误，请提 issue，或者联系我，我会尽快处理，业余时间开发，无法即时回复，请优先邮件联系。
+
+## 项目及友链推荐
+
+[QFramework - Unity 开发框架](https://github.com/liangxiegame/QFramework)
+
+[ES Framework - Unity 开发框架](https://github.com/Ey-Sive-I-Save/ESFrameWorkPublish.git)
+
+[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+
+[Wcowin 的 MkDocs 博客](https://wcowin.work/Mkdocs-Wcowin/)
+
+[Aaron 的博客](https://jaywhj.netlify.app/)
