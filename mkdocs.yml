@@ -5,22 +5,69 @@ site_url: https://www.odintoolkits.cn/
 copyright: Copyright &copy; 2025 Yuumix
 
 # Repository
-repo_name: Odin Toolkits
+repo_name: Odin Toolkits For Unity
 repo_url: https://github.com/yuumixcode/OdinToolkits-For-Unity
 
+# Navigation
+nav:
+  - README: 
+    - README: README.md
+  - Info:
+    - CHANGELOG: Information/CHANGELOG.md
+    - LICENSE: Information/LICENSE.md
+    - LOGO-LICENSE: Information/LOGO-LICENSE.md
+  # - ROADMAP: Information/ROADMAP.md
+  - Manual:
+    - Script Doc Generator:
+      - 使用指南: Manual/ScriptDocGenerator/ScriptDocGeneratorUsageGuide.md
+      - 单元测试: Manual/ScriptDocGenerator/UnitTestSupports.md
+    - Modules:
+      - Quick Generate SO: Manual/Modules/QuickGenerateSO.md
+  - Scripting API:
+    - Odin Toolkits:
+      - Script Doc Generator:
+        - Editor:
+          - DocGeneratorSettingSO: ScriptingAPI/OdinToolkits/ScriptDocGenerator/Editor/DocGeneratorSettingSO.md
+          - TypeCacheSO: ScriptingAPI/OdinToolkits/ScriptDocGenerator/Editor/TypesCacheSO.md
+        - ConstructorData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/ConstructorData.md
+        - DefaultAttributeFilter: ScriptingAPI/OdinToolkits/ScriptDocGenerator/DefaultAttributeFilter.md
+        - DerivedMemberDataComparer: ScriptingAPI/OdinToolkits/ScriptDocGenerator/DerivedMemberDataComparer.md
+        - EventData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/EventData.md
+        - FieldData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/FieldData.md
+        - IAttributeFilter: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IAttributeFilter.md
+        - IAnalysisDataFactory: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IAnalysisDataFactory.md
+        - IConstructorData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IConstructorData.md
+        - IEventData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IEventData.md
+        - IFieldData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IFieldData.md
+        - IMethodData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IMethodData.md
+        - IParameterData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IParameterData.md
+        - IPropertyData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IPropertyData.md
+        - ITypeData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/ITypeData.md
+        - MethodData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/MethodData.md
+        - ParameterData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/ParameterData.md
+        - PropertyData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/PropertyData.md
+        - TypeAnalyzerStaticExtensions: ScriptingAPI/OdinToolkits/ScriptDocGenerator/TypeAnalyzerStaticExtensions.md
+        - TypeAnalyzerUtility: ScriptingAPI/OdinToolkits/ScriptDocGenerator/TypeAnalyzerUtility.md
+        - TypeCategory: ScriptingAPI/OdinToolkits/ScriptDocGenerator/TypeCategory.md
+        - TypeData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/TypeData.md
+        - YuumixDefaultAnalysisDataFactory: ScriptingAPI/OdinToolkits/ScriptDocGenerator/YuumixDefaultAnalysisDataFactory.md
+  - Artical:
+    - 2025 年 11 月:
+      - C# SOLID 原则: Artical/csharp-SOLID.md
+      - C# 架构设计: Artical/csharp-architecture-design.md
+    - Odin Inspector:
+      - Visual Designer 设计: Artical/OdinInspector/visual-designer.md
+  - 关于 Odin Inspector 必读: OdinInspector-license.md
+ 
 # Configuration
 theme:
   name: material
   favicon: assets/logo-color-noshadow.png
   logo: assets/logo-color-noshadow.png
-  icon:
-    repo: lucide/github
   custom_dir: overrides
   language: zh
   features:
     - announce.dismiss
-    # - content.action.edit
-    - content.action.view
     - content.code.annotate
     - content.code.copy
     - content.code.select
@@ -36,28 +83,26 @@ theme:
     - toc.follow
     - search.highlight
     - header.autohide
-  palette:
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: lucide/sun-moon
-        name: 切换亮色
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
       toggle:
         icon: lucide/sun
-        name: 切换暗色
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: orange
+        name: 切换暗黑模式
+    # Palette toggle for dark mode
+    - scheme: slate
       toggle:
-        icon: lucide/moon-star
-        name: 遵循系统偏好
+        icon: lucide/moon
+        name: 切换亮色模式
   font: false
-
+  icon:
+    repo: lucide/github
+    tag:
+      default: lucide/hash
+      unittest: lucide/test-tube
 extra:
+  tags:
+    UnitTest: unittest
   social:
     - icon: fontawesome/solid/mail-bulk
       link: mailto:<zeriying@gmail.com>
@@ -74,6 +119,7 @@ extra_css:
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - assets/javascripts/tablesort.js
 
 markdown_extensions:
   - admonition
@@ -92,6 +138,7 @@ markdown_extensions:
         kwds:
           case: lower
   - toc:
+      permalink: true
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
@@ -115,12 +162,3 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - abbr
-
-# Page tree
-nav:
-  - README: 
-    - README: README.md
-    - CHANGELOG: Instructions/CHANGELOG.md
-  - 使用手册:
-    - Script Doc Generator:
-      - 使用指南: Manuals/ScriptDocGenerator/ScriptDocGeneratorUsageGuide.md
