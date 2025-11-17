@@ -22,7 +22,7 @@ tags:
 
 <p align="center">
 <a href="https://www.odintoolkits.cn/"><img alt="Main Site GitHub Pages" src="https://img.shields.io/badge/%E4%B8%BB%E7%BD%91%E7%AB%99-www.odintoolkits.cn-green?style=flat"></a>
-<a href="https://zensical-for-odintoolkits.readthedocs.io"><img alt="Static Badge" src="https://img.shields.io/badge/%E5%A4%87%E7%94%A8%E7%BD%91%E7%AB%99-readthedocs.io-orange?style=flat"></a>
+<a href="https://zensical-for-odintoolkits.readthedocs.io"><img alt="Read The Docs" src="https://img.shields.io/badge/%E5%A4%87%E7%94%A8%E7%BD%91%E7%AB%99-readthedocs.io-orange?style=flat"></a>
 </p>
 
 ## ⚠️ 重要声明

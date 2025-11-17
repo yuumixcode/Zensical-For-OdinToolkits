@@ -10,62 +10,63 @@ repo_url: https://github.com/yuumixcode/OdinToolkits-For-Unity
 
 # Navigation
 nav:
-  - README: 
-    - README: README.md
+  - README:
+      - README: README.md
   - Info:
-    - CHANGELOG: Information/CHANGELOG.md
-    - LICENSE: Information/LICENSE.md
-    - LOGO-LICENSE: Information/LOGO-LICENSE.md
+      - CHANGELOG: Information/CHANGELOG.md
+      - LICENSE: Information/LICENSE.md
+      - LOGO-LICENSE: Information/LOGO-LICENSE.md
   # - ROADMAP: Information/ROADMAP.md
   - Manual:
-    - Script Doc Generator:
-      - 使用指南: Manual/ScriptDocGenerator/ScriptDocGeneratorUsageGuide.md
-      - 单元测试: Manual/ScriptDocGenerator/UnitTestSupports.md
-    - Modules:
-      - Quick Generate SO: Manual/Modules/QuickGenerateSO.md
-  - Scripting API:
-    - Odin Toolkits:
       - Script Doc Generator:
-        - Editor:
-          - DocGeneratorSettingSO: ScriptingAPI/OdinToolkits/ScriptDocGenerator/Editor/DocGeneratorSettingSO.md
-          - TypeCacheSO: ScriptingAPI/OdinToolkits/ScriptDocGenerator/Editor/TypesCacheSO.md
-        - ConstructorData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/ConstructorData.md
-        - DefaultAttributeFilter: ScriptingAPI/OdinToolkits/ScriptDocGenerator/DefaultAttributeFilter.md
-        - DerivedMemberDataComparer: ScriptingAPI/OdinToolkits/ScriptDocGenerator/DerivedMemberDataComparer.md
-        - EventData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/EventData.md
-        - FieldData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/FieldData.md
-        - IAttributeFilter: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IAttributeFilter.md
-        - IAnalysisDataFactory: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IAnalysisDataFactory.md
-        - IConstructorData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IConstructorData.md
-        - IEventData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IEventData.md
-        - IFieldData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IFieldData.md
-        - IMethodData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IMethodData.md
-        - IParameterData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IParameterData.md
-        - IPropertyData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IPropertyData.md
-        - ITypeData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/ITypeData.md
-        - MethodData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/MethodData.md
-        - ParameterData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/ParameterData.md
-        - PropertyData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/PropertyData.md
-        - TypeAnalyzerStaticExtensions: ScriptingAPI/OdinToolkits/ScriptDocGenerator/TypeAnalyzerStaticExtensions.md
-        - TypeAnalyzerUtility: ScriptingAPI/OdinToolkits/ScriptDocGenerator/TypeAnalyzerUtility.md
-        - TypeCategory: ScriptingAPI/OdinToolkits/ScriptDocGenerator/TypeCategory.md
-        - TypeData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/TypeData.md
-        - YuumixDefaultAnalysisDataFactory: ScriptingAPI/OdinToolkits/ScriptDocGenerator/YuumixDefaultAnalysisDataFactory.md
+          - 使用指南: Manual/ScriptDocGenerator/ScriptDocGeneratorUsageGuide.md
+          - 单元测试: Manual/ScriptDocGenerator/UnitTestSupports.md
+      - Modules:
+          - Quick Generate SO: Manual/Modules/QuickGenerateSO.md
+  - Scripting API:
+      - Odin Toolkits:
+          - Script Doc Generator:
+              - Editor:
+                  - DocGeneratorSettingSO: ScriptingAPI/OdinToolkits/ScriptDocGenerator/Editor/DocGeneratorSettingSO.md
+                  - TypeCacheSO: ScriptingAPI/OdinToolkits/ScriptDocGenerator/Editor/TypesCacheSO.md
+              - ConstructorData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/ConstructorData.md
+              - DefaultAttributeFilter: ScriptingAPI/OdinToolkits/ScriptDocGenerator/DefaultAttributeFilter.md
+              - DerivedMemberDataComparer: ScriptingAPI/OdinToolkits/ScriptDocGenerator/DerivedMemberDataComparer.md
+              - EventData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/EventData.md
+              - FieldData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/FieldData.md
+              - IAttributeFilter: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IAttributeFilter.md
+              - IAnalysisDataFactory: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IAnalysisDataFactory.md
+              - IConstructorData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IConstructorData.md
+              - IEventData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IEventData.md
+              - IFieldData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IFieldData.md
+              - IMethodData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IMethodData.md
+              - IParameterData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IParameterData.md
+              - IPropertyData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/IPropertyData.md
+              - ITypeData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/ITypeData.md
+              - MethodData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/MethodData.md
+              - ParameterData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/ParameterData.md
+              - PropertyData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/PropertyData.md
+              - TypeAnalyzerStaticExtensions: ScriptingAPI/OdinToolkits/ScriptDocGenerator/TypeAnalyzerStaticExtensions.md
+              - TypeAnalyzerUtility: ScriptingAPI/OdinToolkits/ScriptDocGenerator/TypeAnalyzerUtility.md
+              - TypeCategory: ScriptingAPI/OdinToolkits/ScriptDocGenerator/TypeCategory.md
+              - TypeData: ScriptingAPI/OdinToolkits/ScriptDocGenerator/TypeData.md
+              - YuumixDefaultAnalysisDataFactory: ScriptingAPI/OdinToolkits/ScriptDocGenerator/YuumixDefaultAnalysisDataFactory.md
   - Artical:
-    - 2025 年 11 月:
-      - C# SOLID 原则: Artical/csharp-SOLID.md
-      - C# 架构设计: Artical/csharp-architecture-design.md
-      - SerializeReferenceAttribute: Artical/serializereference-attribute.md
-    - Odin Inspector:
-      - Visual Designer 设计: Artical/OdinInspector/visual-designer.md
-      - 重复打开菜单的问题: Artical/OdinInspector/auto-open-gettingstarted.md
+      - 2025 年 11 月:
+          - C# SOLID 原则: Artical/csharp-SOLID.md
+          - C# 架构设计: Artical/csharp-architecture-design.md
+          - SerializeReferenceAttribute: Artical/serializereference-attribute.md
+      - Odin Inspector:
+          - Visual Designer 设计: Artical/OdinInspector/visual-designer.md
+          - 重复打开菜单的问题: Artical/OdinInspector/auto-open-gettingstarted.md
+          - OnInspectorInit: Artical/OdinInspector/OnInspectorInit.md
   - 关于 Odin Inspector 必读: OdinInspector-license.md
- 
+
 # Configuration
 theme:
   name: material
-  favicon: assets/logo-color-noshadow.png
-  logo: assets/logo-color-noshadow.png
+  favicon: assets/odintoolkits-logo.png
+  logo: assets/odintoolkits-logo.png
   custom_dir: overrides
   language: zh
   features:
@@ -85,7 +86,7 @@ theme:
     - toc.follow
     - search.highlight
     - header.autohide
-  palette: 
+  palette:
     # Palette toggle for light mode
     - scheme: default
       toggle:
