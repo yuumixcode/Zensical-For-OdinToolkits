@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../../../assets/odintoolkits-logo.png">
-      <meta name="generator" content="zensical-0.0.8">
+      <meta name="generator" content="zensical-0.0.9">
     
     
       
@@ -274,7 +274,7 @@
         <a href="../../../Information/CHANGELOG/" class="md-tabs__link">
           
   
-  Info
+  Information
 
         </a>
       </li>
@@ -537,6 +537,8 @@
       
         
       
+        
+      
     
     
     
@@ -560,7 +562,7 @@
   <span class="md-ellipsis">
     
   
-    Info
+    Information
   
 
     
@@ -576,7 +578,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Info
+    Information
   
 
           </label>
@@ -599,6 +601,36 @@
     
   
     CHANGELOG
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Information/CONTRIBUTING/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.688 0c-6.627 0-12 5.373-12 12s5.373 12 12 12a12 12 0 0 0 10.624-6.412 10.48 10.48 0 0 1-8.374 4.162c-5.799 0-10.5-4.701-10.5-10.5S9.14.75 14.938.75c1.001 0 1.97.14 2.887.402A11.96 11.96 0 0 0 12.688 0m2.438 2.25a9 9 0 1 0 7.967 13.19 7.875 7.875 0 1 1-4.115-12.326 9 9 0 0 0-3.852-.864"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    CONTRIBUTING
   
 
     
@@ -2455,6 +2487,8 @@
 <p>The OnInspectorInit attribute takes in an action string as an argument (typically the name of a method to be invoked, or an expression to be executed), and executes that action when the property's drawers are initialized in the inspector. Initialization will happen at least once during the first drawn frame of any given property, but may also happen several times later, most often when the type of a polymorphic property changes and it refreshes its drawer setup and recreates all its children.</p>
 </details>
 <p>OnInspectorInit 特性填写一个方法，或者一个表达式，当被挂载此特性的 Property<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> 初始化时，执行对应的方法或者表达式。</p>
+<p>Odin Inspector 是懒加载，只有当 Property 被显示在 Inspector 面板时，才会初始化，如果 Property 折叠在 Group 中，那么没有打开 Group 时，就不会初始化。</p>
+<p>Unity 原生是全部 Property 一次初始化。</p>
 <div class="footnote">
 <hr />
 <ol>

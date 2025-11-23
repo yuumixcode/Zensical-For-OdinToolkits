@@ -16,6 +16,27 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.4 - alpha] - 2025-11-23
+
+### Added
+
+- `[Important]` 新增 `Attribute Overview Pro` Beta 版本，已完成基础框架设计，只需填充数据内容。Beta 版由旧版，官方 Attribute Overview，Resolved Paramater Window 三部分整合而成。原来的旧版 `Attribute Overview Pro` 模块内容已经归纳到 Deprecated 文件夹，为 Deprecated 版，后续将不再维护，将在 Beta 版完成数据填充后移除。
+    - 新增 `AssetsOnly Attribute`。
+    - 新增 `AssetList Attribute`。
+- 新增 `Tuanjie 1.6.7 LTS` 版本项目，将作为 Odin Toolkits 的后续开发版本。同时保留原有 `Unity 2021.3.45f2c1` 版本项目，新版本将导入 `Unity 2021.3.45f2c1` 版本验证。
+- 新增 `Script Doc Generator` 可视化面板拖拽脚本操作，相比之前的选择 Type 操作，更加方便快捷。优化使用体验。
+- 新增 `Script Doc Generator` 右键菜单，在选中脚本文件后，可以一键添加到可视化面板中，以及直接打开可视化面板。优化使用体验。
+- 新增 `EditorScriptableSingleton<T>`，非 Odin 序列化的编辑器阶段的 ScriptableObject 单例类，用于在编辑器阶段管理单例资源。
+
+### Changed
+
+- 优化 `BilingualHeaderWidget` 布局，使用 4.0.1.0 版本的 `Visual Designer` 进行布局设计，再编写代码实现。用于兼容 Odin Inspector 低版本。
+- 整合 `Process Summary` 菜单项，将 `Summary` 有关的菜单项调整为 `Process Summary/Sync`,`Process Summary/Replace`,`Process Summary/Remove` 三个子菜单项。
+
+### Fixed
+
+- 优化 Odin Toolkits 菜单项设计，修复 v0.5.3 - alpha 版本中的不足。
+
 ## [0.5.3 - alpha] - 2025-11-15
 
 ### Added

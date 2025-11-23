@@ -12,8 +12,9 @@ repo_url: https://github.com/yuumixcode/OdinToolkits-For-Unity
 nav:
   - README:
       - README: README.md
-  - Info:
+  - Information:
       - CHANGELOG: Information/CHANGELOG.md
+      - CONTRIBUTING: Information/CONTRIBUTING.md
       - LICENSE: Information/LICENSE.md
       - LOGO-LICENSE: Information/LOGO-LICENSE.md
   # - ROADMAP: Information/ROADMAP.md
