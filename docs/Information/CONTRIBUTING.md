@@ -37,9 +37,7 @@ fork 项目到自己的仓库，clone 到本地。
 
 推荐贡献者在脚本最上方添加贡献注释，包括但不限于名称，邮箱，贡献时间，采用后将持续保留在脚本中。
 
-此模块将由 `Odin Toolkits` 核心开发者维护，将进行代码审查，保障不出现恶意代码。
-
-后续修改已贡献内容将不会告知原贡献者。
+此模块由 `Odin Toolkits` 核心开发者维护。
 
 ## `Community` 社区模块贡献指南
 
@@ -52,12 +50,6 @@ fork 项目到自己的仓库，clone 到本地。
 5. Community 模块的代码样式无要求，选择你喜欢的方式，但是保持一致性，推荐采用 Rider 设置 `编辑器/代码样式/C#/文件布局/Unity/带区域的默认值`。
 6. 只包含 `Odin Toolkits` 集成模块和 `Community` 模块的新项目打包无警告或错误。
 7. 静态变量要求兼容 `Play Mode`，尤其是运行时的静态变量，需要手动处理初始化，避免用户在 `Play Mode` 时出错。
-
-!!! warning "免责声明"
-
-    Community 模块主要基于社区贡献，`Odin Toolkits` 核心开发者不负责维护 Community 模块的代码样式，也不对 Community 模块的代码负责。使用时请自行承担风险。
-    
-    `Odin Toolkits` 将默认提供剔除 `Community` 模块的发行版本。
 
 ## 静态变量兼容 `Play Mode` 示例
 
